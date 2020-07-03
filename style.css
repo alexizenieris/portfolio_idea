@@ -1,0 +1,315 @@
+* {
+    margin: 0;  
+}
+
+body {
+    background-image: url(images/stardust.png);
+    background-repeat: repeat;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f3f3f3;
+    padding:0 10px;
+    text-shadow: 5px 5px 20px #333;
+}
+
+a:hover {
+    background: linear-gradient(to top, #ddf45b 50%, transparent 50%);
+    text-shadow: 5px 5px 20px #333;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 50vh 40vh; 
+}
+
+.name {
+display: grid;
+align-items: center;
+}
+
+.myname {
+font-family: 'Lato', sans-serif;
+font-weight: 900;
+color: #f3f3f3;
+font-size: 15px;
+margin-left: 50px;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-shadow: 5px 5px 20px #333;
+}
+
+.nav {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    margin-right: 40px;   
+}
+
+.ulnav {
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: .75vw;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    text-shadow: 5px 5px 20px #333;  
+}
+
+ul > li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cta {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    line-height: 4vh;
+    height: 30vh;
+    margin-top: 3%;
+}
+
+.aboutme h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: 55px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin: 15px 10px;
+    text-shadow: 5px 5px 10px #333;
+    }
+    
+.aboutme h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #444349;
+    font-size: 25px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin: 15px 10px;
+    background-color: #ddf45b;
+    box-shadow: 2px 2px 20px #333;
+        }
+    
+.aboutme h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #444349;
+    font-size: 12px;
+    letter-spacing: -.5px;
+    text-align: left;
+    margin: 0px 10px;
+    background-color: #ddf45b;
+    box-shadow: 2px 2px 20px #333;
+        }
+
+.highlight {
+    background-color: #fff;
+    background: linear-gradient(to top, #ddf45b 50%, transparent 50%);
+    padding: 0 10px;
+}
+
+.call {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: 2vw;
+    margin-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.mywork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ddf45b;
+
+}
+
+.workcta {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ddf45b;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    background-color: #444349;
+    padding: 0 10px;
+}
+
+.portfoliocards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+    
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5px;
+    width: 280px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    box-shadow: 5px 5px 20px #333;
+}
+    
+.card:hover {
+    background-color: #d3d3d3;
+    box-shadow: 15px 15px 30px #333;
+}
+    
+.card h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #444349;
+    padding: 5px;
+    
+    }
+    
+.card h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #444349;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px;
+    
+    }
+    
+.card p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #444349;
+    font-size: 10px;
+    text-align: center;
+    padding: 0px 10px;
+}
+    
+.image {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 10px;
+}
+    
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+    
+.card a {
+    background-color: #720034;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: .8vw;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+    
+.cardtitle {
+    display: flex;
+}
+    
+.cardtype {
+    display: flex;
+}
+    
+.cardsummary {
+     display: flex;
+}
+
+.aboutmehead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ddf45b;
+
+}
+
+.aboutmecall {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ddf45b;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    background-color: #444349;
+    padding: 0 10px;
+}
+
+.aboutmecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutmeimage {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutmeimage img {
+    max-width: 50%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #333;
+}
+
+.aboutmetext {
+    display: flex;
+    width: 50%;
+}
+
+.aboutmetext p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #f3f3f3;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .name {
+        display: none;
+    }
+    
+    .nav {
+        display: none; 
+    }
+}
